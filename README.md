@@ -19,22 +19,14 @@ Data Integrity: Through temporal cross-validation, the model maintained a MAPE o
 <p align="center"> <img src="Unknown.png" width="600">
 
 ## 🛠️ Technologies & Methodology
-Language: Python 3.12
-
-Time-Series Modeling: Prophet: For additive modeling of seasonal trends and uncertainty intervals.
-
-Data Libraries: Pandas: For time-series wrangling and reporting delay filtering. Seaborn & Matplotlib: For academic-grade diagnostics and performance plots.
-
-Validation: Cross-Validation (Stan-based): To simulate "backtesting" and ensure model generalizability.
-
-Approach: Integration of regional correlation matrices with Bayesian forecasting to transform raw notifications into actionable predictive intelligence.
+- Language: Python 3.12
+- Time-Series Modeling: Prophet: For additive modeling of seasonal trends and uncertainty intervals.
+- Data Libraries: Pandas: For time-series wrangling and reporting delay filtering. Seaborn & Matplotlib: For academic-grade diagnostics and performance plots.
+- Validation: Cross-Validation (Stan-based): To simulate "backtesting" and ensure model generalizability.
+- Approach: Integration of regional correlation matrices with Bayesian forecasting to transform raw notifications into actionable predictive intelligence.
 
 ## 📁 Data Source
-
-The raw data was extracted from DATASUS (Brazilian Ministry of Health), specifically from the Hospital Information System (SIH/SUS). The analysis includes:
-
-Total respiratory hospitalizations categorized by state and region.
-
-Monthly time-series consolidation from 2023 to late 2025.
-
-Trend decomposition (Trend, Seasonality, and Holidays).
+- The raw data was extracted from DATASUS (Brazilian Ministry of Health), specifically from the Hospital Information System (SIH/SUS). The analysis includes:
+- Total respiratory hospitalizations categorized by state and region.
+- Monthly time-series consolidation from 2023 to late 2025.
+- Trend decomposition (Trend, Seasonality, and Holidays).
