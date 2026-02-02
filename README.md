@@ -26,7 +26,7 @@ Data Integrity: Through temporal cross-validation, the model maintained a MAPE o
 - Approach: Integration of regional correlation matrices with Bayesian forecasting to transform raw notifications into actionable predictive intelligence.
 
 ## 📁 Data Source
-- The raw data was extracted from DATASUS (Brazilian Ministry of Health), specifically from the Hospital Information System (SIH/SUS). The analysis includes:
+The raw data was extracted from DATASUS (Brazilian Ministry of Health), specifically from the Hospital Information System (SIH/SUS). The analysis includes:
 - Total respiratory hospitalizations categorized by state and region.
 - Monthly time-series consolidation from 2023 to late 2025.
 - Trend decomposition (Trend, Seasonality, and Holidays).
